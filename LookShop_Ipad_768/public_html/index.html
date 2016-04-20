@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>LookShop_Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.gallery.js"></script>
+        <link rel="stylesheet" href="css/jquery.gallery.css" type="text/css" />
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.bxslider').bxSlider({
+                    prevText:'',
+                    nextText:''
+                });
+              });
+        </script>
+    </head>
+    <body>
+        <div id="page_align">
+            <div id="header">
+                <div id="header_top">
+                    <div style="height: 30px; float: left;"><img src="images/homepage_ipad768_01.gif"/></div>
+                    <div style="float: left;  margin-left: 290px; height: 30px; width: 72px;
+                         border-left: 1px solid #454545; border-right: 1px solid #454545;">
+                        <form method="post" action="">
+                            <select name="menu" size="1">
+                                <option value="first">$ US</option>
+                                <option value="first">EURO</option>
+                                <option value="first">RU</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div style="height: 30px; width: 177px; float: left;">
+                        <img src="images/homepage_ipad768_03.gif" width="177" height="30" border="0" alt="" usemap="#homepage_ipad768_03_Map">
+                        <map name="homepage_ipad768_03_Map">
+                            <area shape="poly" alt="" coords="126,30, 126,0, 160,0, 160,32" href="#">
+                            <area shape="poly" alt="" coords="0,0, 126,0, 126,30, 0,30" href="#">
+                        </map>
+                    </div>
+                </div><!--end header_top-->
+                <div id="logo">
+                    <div class="logo"><a href="#"><img src="images/homepage_ipad768-03.jpg"/></a></div>             
+                    <div class="logo-serch">
+                        <form method="post" action="">
+                            <select name="menu" size="1">
+                                <option value="first">Your cart</option>
+                            </select>
+                            <div style="height: 33px; width: 214px;border: 1px solid #959595;background: #FAFAFA">
+                                <div style="position: relative; float: left; margin-left: 8px; margin-top: 5px;">
+                                    <img src="images/homepage_desktop_02_04.gif"/>
+                                </div>
+                                <div style="float: left;margin-left: 69px; height: 31px; background: #FAFAFA">
+                                    <p id="items" style="margin-left: 25px;">0 ITEMS  |</p>
+                                    <p id="sum" style="margin-left: 8px;"> $ 0</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div><!--end logo-->
+                <div class="header_menu">
+                    <div class="menu">
+                        <p style=" float: left; font-size: 15px; padding-left: 30px; width: 110px; 
+                           padding-top: 12px; color: #FFFFFF;">MENU</p>
+                        <ul id="menu_img">
+                            <li>
+                                <img src="images/homepage_ipad768-06.jpg"/>
+                                <ul>
+                                    <li><a href="#">CRAZY SUMMER</a></li>
+                                    <li><a href="#">CRAZY WINTER</a></li>
+                                    <li><a href="#">CRAZY SUMMER1</a></li>
+                                    <li><a href="#">CRAZY WINTER1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slider">
+                    <ul class="bxslider">
+                        <li><div id="button-bxslider" style="height: 350px; width: 760px;">
+                                <div style="position: absolute; margin-top: 253px; margin-left: 145px">
+                                    <a href="#"><img src="images/homepage_ipad768-09_08.gif"/></a>
+                                </div>
+                                <img src="images/homepage_ipad768-09.jpg" /></div>
+                        </li>
+                        <li><div id="button-bxslider" style="height: 350px; width: 760px;">
+                                <div style="position: absolute; margin-top: 253px; margin-left: 145px">
+                                    <a href="#"><img src="images/homepage_ipad768-09_08.gif"/></a>
+                                </div>
+                                <img src="images/homepage_ipad768-09.jpg" /></div>
+                        </li>
+                        <li><div id="button-bxslider" style="height: 350px; width: 760px;">
+                                <div style="position: absolute; margin-top: 253px; margin-left: 145px">
+                                    <a href="#"><img src="images/homepage_ipad768-09_08.gif"/></a>
+                                </div>
+                                <img src="images/homepage_ipad768-09.jpg" /></div>
+                        </li>
+                        <li><div id="button-bxslider" style="height: 350px; width: 760px;">
+                                <div style="position: absolute; margin-top: 253px; margin-left: 145px">
+                                    <a href="#"><img src="images/homepage_ipad768-09_08.gif"/></a>
+                                </div>
+                                <img src="images/homepage_ipad768-09.jpg" /></div>
+                        </li>
+                        <li><div id="button-bxslider" style="height: 350px; width: 760px;">
+                                <div style="position: absolute; margin-top: 253px; margin-left: 145px">
+                                    <a href="#"><img src="images/homepage_ipad768-09_08.gif"/></a>
+                                </div>
+                                <img src="images/homepage_ipad768-09.jpg" /></div>
+                        </li>
+                     </ul>
+                </div><!--end slider-->
+            </div><!--end header-->
+            <div class="content">
+                <div id="stay_updated">
+                    <div style="position: relative; float: left; height: 54px; width: 92px;">
+                        <img src="./images/homepage_desktop_07_3.gif"/>
+                    </div>
+                    <form action='#' method='post'style="position: relative; float: left; width: 160px;">
+                        <input type="email" name="email" placeholder="Your email address" 
+                               style="float: left; border: 0px; width: 132px; height: 29px; margin-top: 14px;"/>
+                        <input id="5" type="submit" value="" name="submit" style="position: relative; float: left; border: 0px; height: 29px; width: 28px; 
+                               margin-top: 14px; margin-left: 0px; background: url(images/homepage_desktop_07_2.jpg);"/>
+                    </form>
+                    <div style="float: left; height: 55px; width: 335px; margin-left: 172px;">
+                        <img src="images/homepage_desktop_07_1.gif" width="335" height="55" border="0" alt="" usemap="#homepage_desktop_07_1_Map">
+                        <map name="homepage_desktop_07_1_Map">
+                            <area shape="poly" alt="" coords="266,55, 266,0, 320,0, 320,55" href="#">
+                            <area shape="poly" alt="" coords="210,55, 210,0, 266,0, 266,55" href="#">
+                            <area shape="poly" alt="" coords="154,55, 154,0, 210,0, 209,55" href="#">
+                        </map>
+                    </div>
+                </div>
+                <div id="content_none"></div>
+                <div id="content_looks">
+                    <div id="content_looks_center">
+                        <div id="content_looks_center_left">
+                            <img src="images/homepage_ipad768-15.jpg"/>
+                        </div>
+                        <div id="content_looks_center_right_top">
+                            <img src="images/homepage_ipad768-17.jpg"/>
+                        </div>
+                        <div id="content_looks_center_right-bottom_left">
+                            <img src="images/homepage_ipad768-20.jpg"/>
+                        </div>
+                        <div id="content_looks_center_right-bottom_righ">
+                            <img src="images/homepage_ipad768-22.gif" width="181" height="127" border="0" alt="" usemap="#homepage_ipad768_22_Map">
+                                <map name="homepage_ipad768_22_Map">
+                                    <area shape="poly" alt="" coords="22,91, 96,91, 96,114, 22,114" href="#">
+                                </map>
+                        </div>
+                    </div>
+                </div><!--end content_looks-->
+                <div class="content_none_two">
+                    <div class="content_menu">
+                        <a href="#"><div class="button_fixed"><p><font>WHAT'S HOT?</font></p></div></a>
+                        <a href="#"><div class="button_no_fixed"><p><font>DESIGNERS</font></p></div></a>
+                        <a href="#"><div class="button_no_fixed"><p><font>FEATURED</font></p></div></a>
+                        <a href="#"><div class="button_no_fixed"><p><font>LATEST</font></p></div></a>
+                        <a href="#"><div id="prev" class="prev_next_button_no_fixed"><p style="position: relative;
+                        margin-top: 3px;
+                        margin-left: 16px;"><font size="6"><</font></p></div></a>
+                                            <a href="#"><div id="next" class="prev_next_button_fixed"><p style="position: relative;
+                        margin-top: 3px;
+                        margin-left: 16px;"><font size="6">></font></p></div></a>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $('.content_menu .button_no_fixed').click(function(event){
+                        if( $('.content_menu .button_fixed').length ){
+                          $('.content_menu .button_fixed').removeClass('button_fixed').addClass('button_no_fixed')
+                        }
+                        $(this).removeClass('button_no_fixed').addClass('button_fixed')
+                        event.preventDefault()
+
+                     })
+                     $('.content_menu .button_fixed').click(function(event){
+                        if( $('.content_menu .button_fixed').length ){
+                          $('.content_menu .button_fixed').removeClass('button_fixed').addClass('button_no_fixed')
+                        }
+                        $(this).removeClass('button_no_fixed').addClass('button_fixed')
+                        event.preventDefault()
+
+                     })
+                      $('.content_menu .prev_next_button_no_fixed').click(function(event){
+                        if( $('.content_menu .prev_next_button_fixed').length ){
+                          $('.content_menu .prev_next_button_fixed').removeClass('prev_next_button_fixed').addClass('prev_next_button_no_fixed')
+                        }
+                        $(this).removeClass('prev_next_button_no_fixed').addClass('prev_next_button_fixed')
+                        event.preventDefault()
+
+                     })
+                     $('.content_menu .prev_next_button_fixed').click(function(event){
+                        if( $('.content_menu .prev_next_button_fixed').length ){
+                          $('.content_menu .prev_next_button_fixed').removeClass('prev_next_button_fixed').addClass('prev_next_button_no_fixed')
+                        }
+                        $(this).removeClass('prev_next_button_no_fixed').addClass('prev_next_button_fixed')
+                        event.preventDefault()
+
+                     })
+                </script>
+                <div class="gallery">
+                    <!--<div class="prev">&nbsp;</div><!--кнопка прокрутки назад-->	
+                    <!--<div class="next">&nbsp;</div><!--кнопка прокрутки вперед-->	
+                    <div class="carusel">
+                        <div class="owl-item">
+                            <script type="text/javascript">
+                                $('.gallery').click(function(){
+                                    $('.owl-item-top #sale').css('opacity', 1);
+                                 })
+                            </script>
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_27.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>MIMOZA LACE DESS</p></div>
+                                    <div class="block-price"><p>$76,95</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                        <div class="owl-item">
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_29.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>FREE TANK</p></div>
+                                    <div class="block-price"><p>$59,95</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                        <div class="owl-item">
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_32.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>PETROL SWEATER</p></div>
+                                    <div class="block-price"><p>$21,50</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                        <div class="owl-item">
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_27.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>MIMOZA LACE DESS</p></div>
+                                    <div class="block-price"><p>$76,95</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                        <div class="owl-item">
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_29.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>FREE TANK</p></div>
+                                    <div class="block-price"><p>$59,95</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                        <div class="owl-item">
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_32.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>PETROL SWEATER</p></div>
+                                    <div class="block-price"><p>$21,50</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                        <div class="owl-item">
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_27.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>MIMOZA LACE DESS</p></div>
+                                    <div class="block-price"><p>$76,95</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                        <div class="owl-item">
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_29.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <<div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>FREE TANK</p></div>
+                                    <div class="block-price"><p>$59,95</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                        <div class="owl-item">
+                            <div class="owl-item-block-shadow">
+                                <div class="owl-item-top">
+                                    <img src="gallery/img/homepage_desktop_32.jpg" />
+                                    <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="owl-item-bottom" align='center'>
+                                    <div class="block-name"><p>PETROL SWEATER</p></div>
+                                    <div class="block-price"><p>$21,50</p></div>
+                                    <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                                </div>
+                            </div>  
+                        <!--<div style="clear:both">&nbsp;</div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="lable"><img src="images/homepage_ipad768-36.jpg"/></div>
+                <div class="gallery-bottom">
+                    <div class="gallery-bottom-item">
+                        <div class="owl-item-block-shadow">
+                            <div class="owl-item-top">
+                                <img src="gallery/img/homepage_desktop_44.jpg" />
+                                <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                            </div>
+                            <div class="owl-item-bottom" align='center'>
+                                <div class="block-name"><p>NADIA DRESS</p></div>
+                                <div class="block-price"><p>$64,95</p></div>
+                                <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                            </div>
+                        </div>  
+                    </div> 
+                    <div class="gallery-bottom-item">
+                        <div class="owl-item-block-shadow">
+                            <div class="owl-item-top">
+                                <img src="gallery/img/homepage_desktop_46.jpg" />
+                                <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                            </div>
+                            <div class="owl-item-bottom" align='center'>
+                                <div class="block-name"><p>SOFI BLOUSE</p></div>
+                                <div class="block-price"><p>$26,95</p></div>
+                                <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="gallery-bottom-item">
+                        <div class="owl-item-block-shadow">
+                            <div class="owl-item-top">
+                                <img src="gallery/img/homepage_desktop_48.jpg" />
+                                <div id="sale"><img src="images/homepage_desktop_18.jpg"/></div>
+                                    <div id="shop_it">
+                                        <img style="margin-top: 35px; margin-left: 38px;" src="images/homepage_desktop_17.jpg"/>
+                                    </div>
+                            </div>
+                            <div class="owl-item-bottom" align='center'>
+                                <div class="block-name"><p>GOODING SHORTS</p></div>
+                                <div class="block-price"><p>$79,95</p></div>
+                                <div class="block-button"><a href="#"><img src="images/homepage_desktop_38.jpg"/></a></div>
+                            </div>
+                        </div>  
+                    </div>
+                </div><!--gallery-bottom-->
+                <div class="bottom-block-content"><img src="images/homepage_ipad768-47.jpg"/></div>
+            </div><!--end content-->
+            <div id="footer">
+                <div class="footer-top">
+                    <div style="position: absolute; margin-top: 19px; margin-left: 100px; height: 22px; width: 70px;">
+                        <p>We accept</p>
+                    </div>
+                    <div class="block-cards">                      
+                        <a href="#" style="margin-left: 0px;"><img src="images/cards/card_1.gif"/></a>
+                        <a href="#"><img src="images/cards/card_2.gif"/></a>
+                        <a href="#"><img src="images/cards/card_3.gif"/></a>
+                        <a href="#"><img src="images/cards/card_4.gif"/></a>
+                        <a href="#"><img src="images/cards/card_5.gif"/></a>
+                        <a href="#"><img src="images/cards/card_6.gif"/></a>
+                        <a href="#"><img src="images/cards/card_7.gif"/></a>
+                        <a href="#"><img src="images/cards/card_8.gif"/></a>
+                        <a href="#"><img src="images/cards/card_9.gif"/></a>
+                        <a href="#"><img src="images/cards/card_10.gif"/></a>
+                        <a href="#"><img src="images/cards/card_11.gif"/></a>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <div style="float: left; height: 347px; width: 381px;">
+                        <div class="block-customer">
+                            <h4 style="margin-top: 30px; margin-left: 15px;"><strong>Customer Service</strong></h4>
+                            <p><a href="#">Contact</a></p>
+                            <p><a href="#">FAQ</a></p>
+                            <p><a href="#">Terms of payment</a></p>
+                            <p><a href="#">Tems of sale</a></p>
+                            <p><a href="#">Delivery terms and conditions</a></p>
+                            <p><a href="#">Returns and Refunds</a></p>
+                        </div>
+                        <div class="information">
+                            <h4 style="margin-top: 30px; margin-left: 15px;">
+                                <strong>Information</strong>
+                            </h4>
+                            <p><a href="#">Affiliate</a></p>
+                            <p><a href="#">Cookies</a></p>
+                            <p><a href="#">How to Shop</a></p>
+                            <p><a href="#">About Nelly</a></p>
+                            <p><a href="#">Investor relations</a></p>
+                        </div>
+                        <div class="campaigns">
+                            <h4 style="margin-top: 30px; margin-left: 15px;">
+                                <strong>Campaigns</strong>
+                            </h4>
+                            <p><a href="#">Evening</a></p>
+                            <p><a href="#">Makeup</a></p>
+                            <p><a href="#">Fashion forward</a></p>
+                            <p><a href="#">training clothes</a></p>
+                            <p><a href="#">Special Occasion Dresses</a></p>
+                        </div>
+                        <div class="stores">
+                            <h4 style="margin-top: 30px; margin-left: 15px;">
+                                <strong>Stores</strong>
+                            </h4>
+                            <p><a href="#">Paris</a></p>
+                            <p><a href="#">New York</a></p>
+                            <p><a href="#">London</a></p>
+                            <p><a href="#">Madrid</a></p>
+                            <p><a href="#">Tokio</a></p>
+                        </div>
+                    </div>
+                    <div style="float: left; height: 347px; width: 379px;">
+                        <img src="images/homepage_ipad768-04.gif" width="379" height="347" border="0" alt="" usemap="#homepage_ipad768_04_Map">
+                        <map name="homepage_ipad768_04_Map">
+                            <area shape="poly" alt="" coords="141,108, 152,108, 163,116, 163,130, 154,140, 141,140, 130,131, 131,117" href="#">
+                            <area shape="poly" alt="" coords="97,108, 111,111, 118,121, 116,136, 100,142, 86,133, 85,119" href="#">
+                            <area shape="poly" alt="" coords="44,113, 53,108, 65,110, 71,117, 73,128, 68,137, 57,142, 43,138, 40,132, 38,121" href="#">
+                            <area shape="poly" alt="" coords="134,70, 141,65, 151,65, 161,74, 163,85, 159,94, 143,99, 130,90, 128,79" href="#">
+                            <area shape="poly" alt="" coords="92,68, 99,65, 110,67, 114,72, 117,76, 118,84, 114,93, 107,99, 98,99, 89,95, 85,89, 82,82, 84,75" href="#">
+                            <area shape="poly" alt="" coords="48,67, 55,65, 63,66, 68,70, 73,78, 73,86, 69,93, 63,98, 53,99, 46,96, 40,91, 38,82, 39,74, 43,70" href="#">
+                        </map>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <img src="images/homepage_ipad768-50.gif" width="760" height="74" border="0" alt="" usemap="#homepage_ipad768_50_Map">
+                    <map name="homepage_ipad768_50_Map">
+                        <area shape="poly" alt="" coords="412,66, 412,3, 483,3, 483,66" href="#">
+                        <area shape="poly" alt="" coords="315,66, 315,3, 403,6, 403,66" href="#">
+                        <area shape="poly" alt="" coords="234,66, 234,3, 308,6, 307,66" href="#">
+                        <area shape="poly" alt="" coords="117,66, 117,3, 229,3, 229,66" href="#">
+                        <area shape="poly" alt="" coords="5,66, 5,4, 112,3, 112,66" href="#">
+                    </map>
+                </div>
+            </div><!--end footer-->
+        </div><!--end page_align-->
+    </body>
+</html>

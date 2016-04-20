@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    background: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+#page_align{
+    width: 640px;
+    height: 2453px;
+    overflow: hidden;
+    margin: auto;
+}
+#header{
+    height: 771px;
+}
+#header_top{ 
+    height: 96px;
+    width: 100%;
+    background: #000;
+}
+#header_top select{
+    float: left;
+    margin-left: 30px;
+    font-size: 30px;
+    height: 96px;
+    width: 80px;
+    color: #FFFFFF;
+    background: #000;
+    border: none;
+    -webkit-appearance: none;
+}
+#logo{
+    height: 200px;
+    width: 100%;
+}
+#items_form p{
+    float: left; 
+    color: #959595;
+    font-size: 29px;
+}
+.header_menu{
+    height: 122px;
+    width: 100%;
+}
+.menu{
+    height: 96px;
+    width: 610px;
+    margin-left: 15px;
+    background: #FD926D;
+}
+#menu_img{
+    position: absolute;
+    float: left;
+    list-style:none;
+    margin-left: 547px;
+    height: 96px;
+    width: 63px;
+    cursor: pointer;
+}
+#menu_img ul{
+    margin-left: -361px;
+    list-style:none;
+    position:absolute;
+    z-index: 999;
+    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+    background: #FD926D;
+}
+#menu_img ul li{
+    width: 400px;
+    margin-top:10px;
+    margin-left: 25px;
+    float:none;
+}
+#menu_img ul a{
+    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+    display:block;
+    font-size: 40px;
+    color: #FFFFFF;
+    background: none;
+    text-decoration:none;
+}
+#menu_img li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+    left:-1px; /* Приносим его обратно на экран, когда нужно */
+    opacity:1; /* Делаем непрозрачным */
+}
+.header_email_form{
+    height: 120px;
+    width: 100%;
+    font-style: italic;
+}
+.content{
+    height: 1574px;
+    width: 100%;
+}
+.content_menu{
+    height: 88px;
+    width: 100%;
+}
+.content_menu select{
+    float: left;
+    padding-left: 30px;
+    font-size: 30px;
+    height: 88px;
+    width: 590px;
+    color: #FFFFFF;
+    background: #F4845D;
+    border: none;
+    -webkit-appearance: none;
+}
+#footer{
+    height: 108px;
+    width: 100%;
+}
+#footer-menu_img{
+    position: absolute;
+    float: left;
+    list-style:none;
+    height: 96px;
+    width: 100px;
+    cursor: pointer;    
+}
+#footer-menu_img ul{
+    margin-left: 0px;
+    list-style:none;
+    position:absolute;
+    z-index: 999;
+    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+    background: #000;
+}
+#footer-menu_img ul li{
+    width: 450px;
+    margin-top:10px;
+    margin-left: 20px;
+    float:none;
+}
+#footer-menu_img ul a{
+    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+    display:block;
+    color: #FFFFFF;
+    font-size: 45px;
+    background: none;
+    text-decoration:none;
+}
+#footer-menu_img li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+    left:-1px; /* Приносим его обратно на экран, когда нужно */
+    opacity:1; /* Делаем непрозрачным */
+}

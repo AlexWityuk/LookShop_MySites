@@ -1,0 +1,134 @@
+.gallery{
+    height: 455px;
+    background: #FD926D;
+    overflow:hidden;position:relative;}
+.gallery .carusel{position:relative;width:5000px;}
+.gallery .carusel .owl-item{float:left;display:block;margin-right:0px;}
+.gallery .prev,
+.gallery .next,
+.gallery .navigation{
+	position:absolute;
+	left:0px;
+	z-index:99;
+	width:8%; 
+	background:#eee url(img/prev.png) no-repeat;
+	background-position: 50% 50%;
+	height:100%;
+	opacity:0.5;
+	cursor:pointer;
+}
+.gallery .next{
+	left:92%;
+	background-image:url(img/next.png);
+}
+.gallery .navigation{
+	left:50%;
+	width:auto;
+	bottom:5px;
+	height:16px;
+	background:#eee;
+	padding:3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	opacity:0.7;
+}
+.gallery .navigation div{
+	height:16px;
+	width:16px;
+	float:left;
+	background:url(img/tab.png);
+	margin-right:3px;
+}
+.gallery .navigation div.active{
+	background-position:0px 16px;
+}
+
+.owl-item {
+    height: 395px;
+    width: 250px;
+    margin-top: 30px; 
+}
+
+.owl-item-block-shadow{
+    position: absolute;
+    margin-left: 15px;
+    height: 395px;
+    width: 220px;  
+     z-index: 2;
+    max-width: 500px;
+    font-size: 20px;
+    /*cursor: pointer;*/
+    transition: 0.5s linear;
+}
+.owl-item-block-shadow:hover{
+     -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+    box-shadow: 0 0 15px 5px #C26F55 ;
+}
+.owl-item-block-shadow .owl-item-top:hover #shop_it{
+   opacity:1;
+}
+.owl-item-top{
+    height: 290px;
+    width: 220px;
+}
+.owl-item-top #sale{
+    position: absolute;
+    float: left;
+    opacity:0;
+    z-index: 999;
+    margin-top: -290px;
+    margin-left: 0px;
+    height: 50px;
+    width: 50px;
+}
+.owl-item-top #shop_it{
+    position: absolute;
+    float: left;
+    opacity:0;
+    z-index: 2;
+    margin-top: -205px;
+    margin-left: 50px;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px 60px 60px 60px;
+    background: #3D3D3D;
+    cursor: pointer;
+}
+.owl-item-bottom{
+    height: 105px;
+    width: 220px;
+    background: #F7F7F7;
+}
+.block-name{
+    position: absolute;
+    margin-top: 12px;
+    height: 18px;
+    width: 220px;
+    font-size: 11px;
+}
+.block-price{
+    position: absolute;
+    margin-top: 30px;
+    height: 32px;
+    width: 220px;
+    font-size: 19px;
+}
+.block-button{
+    position: absolute;
+    margin-top: 62px;
+    height: 43px;
+    width: 220px;
+}
+.gallery-bottom {
+    float:left;
+    height: 395px;
+    width: 1001px;
+    margin-left: 100px;
+}
+.gallery-bottom-item{
+    float: left;
+    height: 395px;
+    width: 250px;
+}

@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    background: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+#page_align{
+    width: 760px;
+    height: 2893px;
+    background: #FFFFFF;
+    margin: auto;
+}
+#header{
+    height: 608px;
+}
+#header_top{
+    
+    height: 30px;
+    width: 100%;
+    background: #000;
+}
+#header_top select{
+    height: 30px;
+    width: 69px;
+    color: #C2C2C2;
+    background: #000;
+    border: none;
+    overflow: hidden;
+}
+#logo{
+    float: left;
+    width: 100%;
+    height: 107px;
+}
+.logo{
+    float: left;
+    position: relative;
+    height: 107px;
+    width: 315px;
+}
+.logo-serch{
+    float: left;
+    margin-top: 21px;
+    margin-left: 216px;
+    height: 66px;
+    width: 229px;
+}
+.logo-serch select{
+    height: 33px;
+    width: 214px;
+    color: #959595;
+}
+.logo-serch p{
+    float: left; 
+    margin-top: 10px;
+    color: #959595;
+    font-size: 11px;
+}
+.header_menu{
+    height: 65px;
+    width: 100%;
+    margin-top: 107px;
+}
+.menu{
+    height: 48px;
+    width: 730px;
+    margin-left: 15px;
+    background: #FD926D;
+}
+#menu_img{
+    position: absolute;
+    float: left;
+    list-style:none;
+    margin-top: -1px;
+    margin-left: 570px;
+    height: 48px;
+    width: 161px;
+    cursor: pointer;
+}
+#menu_img ul{
+    margin-left: -10px;
+    list-style:none;
+    position:absolute;
+    z-index: 999;
+    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+    background: #FD926D;
+}
+#menu_img ul li{
+    width: 100px;
+    margin-top:10px;
+    margin-left: 25px;
+    float:none;
+}
+#menu_img ul a{
+    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+    display:block;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: none;
+    text-decoration:none;
+}
+#menu_img li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+    left:-1px; /* Приносим его обратно на экран, когда нужно */
+    opacity:1; /* Делаем непрозрачным */
+}
+.slider{
+    position: relative;
+    margin: 0px;
+    float: left;
+    height: 405px;
+    width: 100%;
+}
+.content{
+    height: 1806px;
+}
+#stay_updated{
+    height: 55px;
+    width: 100%;
+    background: #EDEDED;
+}
+#content_none{
+    height: 34px;
+}
+#content_looks{
+    height: 256px;
+    width: 100%;
+}
+#content_looks_center{
+    height: 256px;
+    width: 730px;
+    margin-left: 15px;
+}
+#content_looks_center_left{
+    height: 256px;
+    width: 364px;
+    float: left;
+}
+#content_looks_center_right_top{
+    float: left;
+    height: 127px;
+    width: 364px;
+    margin-left: 2px;
+}
+#content_looks_center_right-bottom_left{
+    float: left;
+    height: 127px;
+    width: 181px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+#content_looks_center_right-bottom_righ{
+    float: left;
+    height: 127px;
+    width: 181px;
+    margin-left: 2px;
+    margin-top: 2px
+}
+.content_none_two{
+    height: 82px;
+    width: 100%;
+}
+.content_menu{
+    position: absolute;
+    height: 47px;
+    width: 730px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+.content_none_two .content_menu div{
+    float: left;
+    height: 47px;
+    width: 138px;
+}
+.content_menu p{
+    position: relative;
+    margin-top: 16px;
+    margin-left: 21px;
+}
+.content_menu #prev{
+    margin-left: 84px;
+    height: 47px;
+    width: 47px;
+}
+.content_menu #next{
+    height: 47px;
+    width: 47px;
+}
+.content_none_two .content_menu .button_fixed { color: #FFE6E6; background:#FE926E; }
+.content_none_two .content_menu .button_no_fixed { background: #FFFFFF; }
+.content_none_two .content_menu .prev_next_button_fixed { color: #FFE6E6; background:#FE926E; }
+.content_none_two .content_menu .prev_next_button_no_fixed { color: #989898; background: #F2F2F2; }
+
+.content_menu a{
+    color:#525252;
+    text-decoration:none;
+}
+#gallery{
+    height: 455px;
+    background: #FD926D;
+}
+#footer{
+    height: 330px;
+}
+.bottom-block-content{
+    height: 324px;
+}
+.footer-top{
+    height: 58px;
+    width: 100%;
+    background: #F7F7F7;
+}
+.footer-top p{
+    position: relative;
+    font-size-adjust: 0.7;
+}
+.footer-top .block-cards{
+    position: absolute;
+    height: 22px;
+    width: 477px;
+    margin-top: 19px;
+    margin-left: 185px;
+}
+.footer-top .block-cards a{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+.footer-center{
+    height: 347px;
+    width: 100%;;
+    background: #EDEDED;
+}
+.footer-center p{
+    line-height: 0.8;
+}
+.footer-center a{
+    margin-left: 15px;
+    color:#7F7E7C;
+    text-decoration:none;
+}
+.footer-center .block-customer{ 
+    float: left;
+    height: 177px; 
+    width: 210px;  
+}
+.footer-center .information{
+    float: left;
+    height: 177px; 
+    width: 171px; 
+}
+.footer-center .campaigns{
+    position: relative;
+    float: left;
+    height: 170px; 
+    width: 190px; 
+}
+.footer-center .stores{
+    float: left;
+    position: relative;
+    float: left;
+    height: 170px; 
+    width: 191px; 
+}
+.footer-center .social{
+    position: relative;
+    float: left;
+    height: 199px; 
+    width: 422px; 
+}
+.footer-center .social-top{
+    position: relative;
+    margin-top: 0;
+    width: 422px;
+    height: 6px;
+}
+.footer-center .social-bottom{
+    height: 153px;
+    width: 422px;
+}
+.footer-bottom{
+    height: 74px;
+    width: 100%;
+}
